@@ -1,0 +1,28 @@
+ body {
+        background-color:skyblue;
+        align-items: center;
+      }
+h2, P {
+  font-size: 11px; 
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+}
+div {
+  background-color: white;
+  height:250px;
+  width: 180px;
+  padding: 10px;
+  text-align: center;
+  border-radius:10px 
+}
+img {
+  width: 160px;
+  height:160px;
+  border-radius: 10px;
+}
+.center-element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
